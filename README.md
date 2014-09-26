@@ -37,14 +37,11 @@ $ tips git checkout
 1. Checkout file/dir from another branch
 Usage: git checkout <branch> -- <path>
 
-
 2. Create a branch based on a commit
 Usage: git checkout <commit> -b <branch>
 
-
 3. Checkout file from remote 
 Usage: git checkout origin/<branch>  -- <path>
-
 
 4. Checkout a file from a commit
 Usage: git checkout <commit> <path>```
