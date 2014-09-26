@@ -3,7 +3,7 @@ tips
 
 `tips` is a `man` like shell command with contents synchronized with github repo. 
 
-Nowadays, it's very popular for people manage their knowledge with cloud-based services like Evernote or Github. But you are not able to reach these knowledges directly in the shell. You can think of `tips` as `man + Evernote/Github`, that means integrating your notes on cloud  with a `man` like shell command. 
+Nowadays, it's very popular for people to manage their knowledge with cloud-based services like Evernote or Github. But you are not able to reach these knowledges directly in shell. You can think of `tips` as `man + Evernote/Github`, that means integrating your notes on cloud  with a `man` like shell command. 
 
 Usage
 -----
@@ -27,4 +27,23 @@ Usage: cal <year>
 Example: cal 2014
 ```
 
-In this example, `tips` simply prints the content of `data/<name>.txt` in the git repo. You can edit the tips files easily and synchronize it with the github repo.
+2. `tips <category>... <name>
+
+The following is an example of getting the tips for `git checkout:
+
+```
+1. Checkout file/dir from another branch
+git checkout <branch> -- <path>
+
+
+2. Create a branch based on a commit
+git checkout <commit> -b <branch>
+
+
+3. Checkout file from remote 
+git checkout origin/<branch>  -- <path>
+
+
+4. Checkout a file from a commit
+git checkout <commit> <path>```
+```
