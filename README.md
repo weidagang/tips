@@ -8,7 +8,7 @@ Nowadays, it's very popular for people to manage their knowledge with cloud-base
 Usage
 -----
 
-*1) tips <name>*
+**1) tips <name>**
 
 The following is an example of getting the tips for `cal` command:
 
