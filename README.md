@@ -1,17 +1,14 @@
 tips
 ====
 
-`tips` is a `man` like shell command with contents synchronized with github. 
-
+`tips` is a `man` like shell utility with contents synchronized with github. 
 
 Usage
 -----
 
-The usage is 
+`tips [category...] <name>`
 
-`tips <name>`
-
-Say you need to get the usage of `cal` command, you can use
+The following is an example of getting the tips for `cal` command:
 
 ```
 $ tips cal
