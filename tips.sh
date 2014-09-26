@@ -4,7 +4,11 @@ PROG_DIR=$(dirname $0)
 PROG_NAME=$(basename $0)
 
 function usage {
-    echo "Usage: $PROG_NAME <name>"
+    echo "Usage: $PROG_NAME [category...] <name>"
+    echo "Example:"
+    echo "    1) $PROG_NAME cal"
+    echo "    2) $PROG_NAME git checkout"
+
     exit 1;
 }
 
