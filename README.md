@@ -1,12 +1,12 @@
 tips
 ====
 
-`tips` is a `man` like shell utility with contents synchronized with github. 
+`tips` is a `man` like shell command with contents synchronized with github repo. People usually manage knowledge with cloud-based Note tools like Evernote, You can think of `tips` as `man + Evernote` meaning integrate your notes about shell commands with a `man` like shell command. 
 
 Usage
 -----
 
-`tips [category...] <name>`
+1. `tips <name>`
 
 The following is an example of getting the tips for `cal` command:
 
@@ -25,7 +25,4 @@ Usage: cal <year>
 Example: cal 2014
 ```
 
-Implementation 
---------------
-
-The implementation of `tips` is really straightforward, it simply searches and prints the `<name>.txt` under the `data` directory. The nice thing about `tips` is that you can edit the tips files easily and synchronize it with the github repo.
+In this example, `tips` simply prints the content of `data/<name>.txt` in the git repo. You can edit the tips files easily and synchronize it with the github repo.
