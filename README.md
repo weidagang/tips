@@ -31,6 +31,4 @@ Example: cal 2014
 Design 
 ------
 
-The design of `tips` is really straightforward, it simply searches and prints the `<name>.txt` under the `data` directory. 
-
-The nice thing about `tips` is that you can edit the text tips files easily and synchronize it with the github repo.
+The design of `tips` is really straightforward, it simply searches and prints the `<name>.txt` under the `data` directory. The nice thing about `tips` is that you can edit the text tips files easily and synchronize it with the github repo.
