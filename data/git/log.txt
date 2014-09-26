@@ -1,0 +1,19 @@
+1. Show logs between start time and end time
+Usage: git log --since=<start-time> --until=<end-time> -p
+Example: git log --since=2012-7-10 --until=2012-7-11 -p
+
+
+2. Check commit history including remote repo
+Usage: git log --decorate
+
+
+3. Pretty log
+Usage: git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+
+
+4. List commits made by a user
+Usage: git log --author=<user-name>
+
+
+5. Show log of a specific branch and path
+Usage: git log <branch> <path>

@@ -8,15 +8,27 @@ function usage {
     exit 1;
 }
 
-if [[ $# -ne 1 || $1 == "-h" || $1 == "--help" || $1 == "-help" ]]; then
+function no_tips {
+    echo "No tips found for \"$@\"" 
+    exit 2
+}
+
+# validate command line arguments
+if [[ $# -lt 1 || $1 == "-h" || $1 == "--help" || $1 == "-help" ]]; then
     usage
 fi
 
-NAME=$1
-TIPS_FILE=$PROG_DIR/data/$NAME.txt
+# step down to the subfolders
+i=0
+dir=$PROG_DIR/data
+for arg in $@; do 
+    ((i++))
 
-if [[ -r $TIPS_FILE ]]; then
-    cat $TIPS_FILE
-else
-    echo "No tips found for \"$NAME\""
-fi
+    if [[ $i < $# ]]; then #directory
+        dir=$dir/$arg
+        [[ -d $dir ]] || no_tips $@
+    else #file
+        tips_file=$dir/${arg}.txt
+        [[ -r $tips_file ]] && cat $tips_file || no_tips $@
+    fi
+done
