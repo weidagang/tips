@@ -1,7 +1,7 @@
 tips
 ====
 
-`tips` is a `man` like shell command with contents synchronized with github repo. People usually manage knowledge with cloud-based Note tools like Evernote, You can think of `tips` as `man + Evernote` meaning integrate your notes about shell commands with a `man` like shell command. 
+`tips` is a `man` like shell command with contents synchronized with github repo. People usually manage knowledge with cloud-based tools like Evernote, you can think of `tips` as `man + Evernote`, that means integrating your notes about shell commands with a `man` like shell command. 
 
 Usage
 -----
