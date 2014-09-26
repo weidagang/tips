@@ -44,7 +44,7 @@ Usage: git checkout <commit> -b <branch>
 Usage: git checkout origin/<branch>  -- <path>
 
 4. Checkout a file from a commit
-Usage: git checkout <commit> <path>```
+Usage: git checkout <commit> <path>
 ```
 
 Tips Files
