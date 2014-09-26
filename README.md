@@ -16,7 +16,7 @@ The following is an example of getting the tips for `cal` command:
 $ tips cal
 
 1. Displays the calendar for the current month
-Example: cal
+Usage: cal
 
 2. Displays the calendar for a year and month
 Usage: cal <month> <year>
@@ -35,17 +35,17 @@ The following is an example of getting the tips for `git checkout:
 $ tips git checkout
 
 1. Checkout file/dir from another branch
-git checkout <branch> -- <path>
+Usage: git checkout <branch> -- <path>
 
 
 2. Create a branch based on a commit
-git checkout <commit> -b <branch>
+Usage: git checkout <commit> -b <branch>
 
 
 3. Checkout file from remote 
-git checkout origin/<branch>  -- <path>
+Usage: git checkout origin/<branch>  -- <path>
 
 
 4. Checkout a file from a commit
-git checkout <commit> <path>```
+Usage: git checkout <commit> <path>```
 ```
