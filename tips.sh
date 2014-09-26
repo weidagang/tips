@@ -13,10 +13,10 @@ if [[ $# -ne 1 || $1 == "-h" || $1 == "--help" || $1 == "-help" ]]; then
 fi
 
 NAME=$1
-TIPS_FILE=$PROG_DIR/$NAME.txt
+TIPS_FILE=$PROG_DIR/data/$NAME.txt
 
 if [[ -r $TIPS_FILE ]]; then
-    echo $TIPS_FILE
+    cat $TIPS_FILE
 else
     echo "No tips found for \"$NAME\""
 fi

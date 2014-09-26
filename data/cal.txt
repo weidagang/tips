@@ -1,0 +1,10 @@
+1. Displays the calendar for the current month
+Example: cal
+
+2. Displays the calendar for a specific year and month
+Usage: cal <month> <year>
+Example: cal 8 2014
+
+3. Displays the calendar for a specific year
+Usage: cal <year>
+Example: cal 2014
