@@ -46,3 +46,26 @@ Usage: git checkout origin/<branch>  -- <path>
 4. Checkout a file from a commit
 Usage: git checkout <commit> <path>```
 ```
+
+Tips Files
+----------
+
+Tips files are plain text files under `data` folder of the repo. The structure looks like:
+
+```
+<repo> +
+       |
+       data +
+            |- awk.txt
+            |- bc.txt
+            |- curl.txt
+            ...
+            |- git
+                |- branch.txt
+                |- checkout.txt
+                |- commit.txt
+                ...
+            |- sed.txt
+            ...
+
+```
