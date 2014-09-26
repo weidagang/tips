@@ -1,7 +1,7 @@
 tips
 ====
 
-`tips` is a shell command like `man` but synchronized with github. 
+`tips` is a `man` like shell command with contents synchronized with github. 
 
 
 Usage
