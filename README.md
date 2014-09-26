@@ -1,5 +1,5 @@
-tips
-====
+tips = man + github
+===================
 
 `tips` is a `man` like shell command with contents synchronized with github repo. 
 
