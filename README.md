@@ -69,3 +69,5 @@ Tips files are plain text files under `data` folder of the repo. The structure l
                ...
 
 ```
+
+A subfolder of `data` corresponds to a category, e.g. `git` in the example above. A `<name>.txt` file corresponds to a tips for `<name>`. 
