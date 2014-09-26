@@ -8,7 +8,7 @@ Nowadays, it's very popular for people to manage their knowledge with cloud-base
 Usage
 -----
 
-**1) tips <name>**
+1) `tips <name>`
 
 The following is an example of getting the tips for `cal` command:
 
@@ -27,11 +27,13 @@ Usage: cal <year>
 Example: cal 2014
 ```
 
-*2) tips <category>... <name>*
+2) `tips <category>... <name>`
 
 The following is an example of getting the tips for `git checkout:
 
 ```
+$ tips git checkout
+
 1. Checkout file/dir from another branch
 git checkout <branch> -- <path>
 
