@@ -54,18 +54,18 @@ Tips files are plain text files under `data` folder of the repo. The structure l
 
 ```
 <repo> +
-       |
-       data +
-            |- awk.txt
-            |- bc.txt
-            |- curl.txt
-            ...
-            |- git
-                |- branch.txt
-                |- checkout.txt
-                |- commit.txt
-                ...
-            |- sed.txt
-            ...
+       |- data +
+               |- awk.txt
+               |- bc.txt
+               |- curl.txt
+               ...
+               |- grep.txt
+               |- git +
+                      |- branch.txt
+                      |- checkout.txt
+                      |- commit.txt
+                      ...
+               |- sort.txt
+               ...
 
 ```
