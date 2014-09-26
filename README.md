@@ -27,7 +27,7 @@ Usage: cal <year>
 Example: cal 2014
 ```
 
-2. `tips <category>... <name>
+2. `tips <category>... <name>`
 
 The following is an example of getting the tips for `git checkout:
 
