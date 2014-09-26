@@ -3,7 +3,7 @@ tips = man + github
 
 `tips` is a `man` like shell command with contents synchronized with github repo. 
 
-Nowadays, it's very popular for people to manage their knowledge with cloud-based services like Evernote or Github. But you are not able to reach these knowledges directly in shell. You can think of `tips` as `man + Evernote/Github`, that means integrating your notes on cloud  with a `man` like shell command. 
+Nowadays, it's very popular for people to manage their knowledge with cloud-based services like Evernote or Github. Generally speaking, this is a good way of knowledge management, but in some circumstances, it would be nice if these knowledges can be easily accessible within the shell. That's the idea behind `tips`. You can think of `tips` as `man + github`, that a `man` like shell command interface to your knowledge managed on github. 
 
 Usage
 -----
