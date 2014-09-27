@@ -1,0 +1,10 @@
+java - Launches a Java application
+
+1. Launch a Java application by classname
+
+Usage: java [options] classname [args]
+
+2. Launch a Java application by jar 
+
+Usage: java [options] -jar filename [args]
+Example: java -jar plantuml.jar diagram.txt
