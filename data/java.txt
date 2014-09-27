@@ -2,7 +2,8 @@ java - Launches a Java application
 
 1. Launch a Java application by classname
 
-Usage: java [options] classname [args]
+Usage: java [options] <classname> [args]
+Example: java Sorter 2 1 3
 
 2. Launch a Java application by jar 
 
