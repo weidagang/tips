@@ -1,26 +1,26 @@
-# Download a file
+# download a file
 Usage: curl <url> -o <output-file>
 Example: curl http://example.com/a.jpg -o b.jpg
 
 
-# Only show headers
+# only show headers
 $ curl -I <url>
 HTTP/1.1 200 OK
 Content-Type: text/html; charset=utf-8
 Cache-Control: private
 Connection: close
  
-# Find my internet ip
+# find my internet ip
 $ curl ifconfig.me
 93.96.141.93
 
 
-# Follow redirection
+# follow redirection
 $ curl -L <url>
 
 
-# Set agent
+# set agent
 curl -A "Mozilla/5.0 (compatible; MSIE 7.01; Windows NT 5.0)" <url>
 
-# Debug TCP handshake and SSL handshake time
+# debug TCP handshake and SSL handshake time
 $ curl -w "TCP handshake: %{time_connect}, SSL handshake: %{time_appconnect}\n" -so /dev/null <url>
