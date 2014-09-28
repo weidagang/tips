@@ -1,0 +1,27 @@
+# search a package by keyword
+
+apt-cache search <keyword>
+
+# show package information
+
+apt-cache show <package>
+
+# find which package a file belongs to
+
+apt-file list <file>
+
+# install specific package version
+
+apt-get install vsftpd=2.3.5-3ubuntu1
+
+# reinstall package
+
+apt-get --reinstall install <pkg>
+
+# download source code of package
+
+apt-get --download-only source <package>
+
+# download package without installing
+
+apt-get download nethogs
