@@ -1,0 +1,5 @@
+1. tcpdump (text output)
+Usage: tcpdump -i <nic> 
+
+2. tcpdump (binary output, can be open in wireshark)
+Usage: tcpdump -s 0 -U -n -w - -i <nic> > out.cap
