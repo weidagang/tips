@@ -1,0 +1,23 @@
+1. Merge from another branch
+git merge <another-branch>
+
+
+2. Pick a commit from another branch
+git checkout <dest-branch>
+git cherry-pick <source-commit>
+
+
+3. Merge from another branch and in case of conflict keep ours
+git merge <another-branch> --strategy=ours
+
+
+4. Merge conflict: discard remote/local changes and mark a file as “resolved”
+git checkout <branch> -- <path> # checkout file from another branch
+git checkout --ours/--theirs -- <path> # checkout our local or other's version of all files
+git add -u            # mark all conflicted files as merged
+git commit            # commit the merge
+
+ 
+5. Merge n commits from another branch into 1 commit into the current branch
+git merge --squash <another-branch>
+git commit 
