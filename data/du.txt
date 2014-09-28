@@ -1,0 +1,4 @@
+1. Show disk usage
+
+Usage: du -hc --max-depth=<n> <dir>
+Example du -hc --max-depth=1 .
