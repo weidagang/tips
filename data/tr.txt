@@ -1,0 +1,20 @@
+1. lower case to upper case
+
+$ tr 'a-z' 'A-Z' <<<"hello world"
+HELLO WORLD
+
+
+2. delete characters
+
+$ tr -d ' \t' <<<"hello world"
+helloworld
+
+
+3. squeeze repeats (replace each input sequence of a repeated character with a single occurrence)
+
+$ tr -s 'a' <<<"aaabbaa"
+abba
+
+$ echo -e "aaa\n\n\nbbb" | tr -s '\n'
+aaa
+bbb
