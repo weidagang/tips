@@ -1,0 +1,19 @@
+1. find by name 
+Example: find -name "*.java" /project/src
+
+2. find by modification/creation time
+Example: 
+find -mtime +5 
+find -mtime -3
+find -ctime +30 
+find -ctime -5
+
+3. find by regex
+Example: find ./ -regex ".*\(php\|html\|tpl\)$"
+
+4. find by whole name
+Example: find -wholename "*/*/apk/*.apk"
+
+5. find by type (f - file, d - directory)
+Example: find -type f 
+Example: find -type d
