@@ -1,13 +1,22 @@
+tr - replace characters in set1 with characters in set2
+
+Usage: tr [options] "set1" "set2"
+
+Examples:
+
 1. lower case to upper case
 
 $ tr 'a-z' 'A-Z' <<<"hello world"
 HELLO WORLD
 
+$ tr [:lower:] [:upper:] <<<"hello world"
+HELLO WORLD
 
-2. delete characters
 
-$ tr -d ' \t' <<<"hello world"
-helloworld
+2. delete character
+
+echo -e "a b\tc\nd\re" | tr -d [:space:]
+abcde
 
 
 3. squeeze repeats (replace each input sequence of a repeated character with a single occurrence)
@@ -18,3 +27,11 @@ abba
 $ echo -e "aaa\n\n\nbbb" | tr -s '\n'
 aaa
 bbb
+
+
+4. complement (-c)
+
+# delete all non-alphanumber characters
+$ tr -cd '[:alnum:]' <<<"a,b:c?d.1{2} 3"
+tr -cd '[:alnum:]' <<<"a,b:c?d.1{2} 3"
+
