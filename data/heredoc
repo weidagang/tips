@@ -1,0 +1,15 @@
+1. one-line heredoc
+
+cat <<<"This is coming from the stdin"
+
+
+2. heredoc
+
+cat <<EOF
+This is coming from the stdin
+EOF
+
+
+3. redirect output from command
+
+diff <(ls /bin) <(ls /usr/bin)
