@@ -1,9 +1,9 @@
 # calculation
-bc <<< "scale=3; 12345/(2*60)"
+bc <<<"scale=3; 12345/(2*60)"
 
 # format conversion
-bc <<< "ibase=10;obase=16;155"
-bc <<< "ibase=16;AA"
+bc <<<"ibase=10;obase=16;155"
+bc <<<"ibase=16;AA"
 
 # decimal to hex
-hex() { bc <<< "obase=16; $1"; }
+hex() { bc <<<"obase=16; $1"; }
