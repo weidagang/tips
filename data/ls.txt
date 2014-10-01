@@ -1,0 +1,11 @@
+1. file class: -F, --classify  append indicator (one of */=>@|) to entries
+# grep executable files
+$ ls -F | grep '*$'
+
+
+2. reverse sort by modification time:
+$ ls -rt
+
+
+3. recursive: -R, --recursive  list subdirectories recursively
+$ ls -R
