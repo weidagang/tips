@@ -1,2 +1,4 @@
-1. print path, one per line
+1. string substitution
+Example: 
+# print path, one per line
 printf ${PATH//:/\\n}
