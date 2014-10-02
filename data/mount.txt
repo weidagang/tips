@@ -1,0 +1,2 @@
+# mount ISO image
+$ mount -o loop -t iso9660 my.iso /mnt/something
