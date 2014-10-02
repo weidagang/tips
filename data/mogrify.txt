@@ -1,0 +1,2 @@
+# resize image size and reduce quality
+mogrify -resize 1024 -quality 60% <image>
