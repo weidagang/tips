@@ -11,4 +11,8 @@ dagang@inspiron-3437:~$ printf ${PATH//:/\\n}
 /bin
 /usr/games
 
+# capitalize the first character
+$ str="hello world"
+$ echo ${str^}
+Hello world
 
