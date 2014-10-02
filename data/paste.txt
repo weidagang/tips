@@ -1,0 +1,5 @@
+# replace new line as space
+echo -e "a\nb\nc" | paste -s -d' '
+
+# sum
+seq 100 | paste -s -d+ | bc
