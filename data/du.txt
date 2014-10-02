@@ -1,3 +1,6 @@
 1. show disk usage
 Usage: du -hc --max-depth=<n> <dir>
 Example du -hc --max-depth=1 .
+
+2. print top n largest directories
+du -x -BM --max-depth=2 /var | sort -rn | head -n 15
