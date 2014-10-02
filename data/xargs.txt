@@ -1,0 +1,3 @@
+# replace new line as space
+$ echo -e "a\nb\nc" | xargs
+a b c
