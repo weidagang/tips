@@ -1,5 +1,6 @@
 # replace new line as space
 echo -e "a\nb\nc" | paste -s -d' '
+echo -e "a\nb\nc" | xargs
 
 # sum
 seq 100 | paste -s -d+ | bc
