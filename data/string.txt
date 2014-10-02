@@ -1,4 +1,14 @@
-1. string substitution
-Example: 
-# print path, one per line
-printf ${PATH//:/\\n}
+# substitution: print path, one per line
+$ printf ${PATH//:/\\n}
+dagang@inspiron-3437:~$ printf ${PATH//:/\\n}
+/home/dagang/bin
+/usr/lib/lightdm/lightdm
+/usr/local/sbin
+/usr/local/bin
+/usr/sbin
+/usr/bin
+/sbin
+/bin
+/usr/games
+
+
