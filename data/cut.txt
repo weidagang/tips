@@ -1,0 +1,9 @@
+# select characters
+$ cut -c 5 <<<"hello world"
+o
+
+$ cut -c 1-5 <<<"hello world"
+hello
+
+$ cut -c 1,3,5 <<<"hello world"
+hlo
