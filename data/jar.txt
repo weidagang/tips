@@ -1,0 +1,5 @@
+# list contents for archive
+jar -tf <jar-file>
+
+# extract files from archive
+jar -xf <jar-file>
