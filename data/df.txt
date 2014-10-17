@@ -1,0 +1,5 @@
+# show mount points and disk usages
+df -ah
+
+# find out mount point a directory or file is on
+df <path>
