@@ -1,11 +1,5 @@
 # generate a sequence
-$seq 5
-1
-2
-3
-4
-5
+seq 5
 
 # generate a sequence joined by *
-$seq -s* 10
-1*2*3*4*5*6*7*8*9*10
+seq -s* 10
