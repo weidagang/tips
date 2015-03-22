@@ -1,0 +1,3 @@
+# Output starting with the Kth line of the file
+
+$ tail -n +2  // remove the first line
