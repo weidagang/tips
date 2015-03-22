@@ -1,0 +1,29 @@
+List open files.
+
+# List processes which opened a specific file
+
+$ lsof <path>
+
+#  List opened files under a directory
+
+$ lsof +D <dir>
+
+# List opened files based on process names starting with
+
+$ lsof -c <process-name-prefix>
+
+# List all open files by a specific process
+
+$ lsof -p <pid>
+
+#  List all network connections
+
+$ lsof -i
+
+#  List processes which are listening on a particular port
+
+$ lsof -i :<port>
+
+#  List all network files in use by a specific process
+
+$ # lsof -i -a -p <pid>
