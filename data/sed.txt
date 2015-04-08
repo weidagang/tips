@@ -1,0 +1,3 @@
+# Remove 2 lines after a pattern match
+
+sed -e '/pattern here/ { N; N; d; }'
