@@ -2,4 +2,7 @@
 sed -e '/pattern here/ { N; N; d; }'
 
 # Remove white spaces
-sed 's/ //g'
+sed 's/\s//g'
+
+# Remove leading white spaces
+sed 's/^\s*//g'
