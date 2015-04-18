@@ -1,9 +1,9 @@
-tips = man + GitHub
+tips = man + github
 ===================
 
-`tips` is a `man` like shell command interface for your knowledge repo on GitHub. 
+`tips` is a `man` like command line help tool powered by github 
 
-Nowadays, it's very popular for people to manage their knowledge with GitHub. With GitHub, people get the benefits of both cloud and version control. `tips` is designed to bring GitHub even closer to shell users. You can think of `tips` as `man + GitHub`, that means providing a `man` like shell command interface to your knowledge repository on GitHub. 
+Nowadays, it's very popular for people to manage their knowledge with github. With github, people get the benefits of both cloud and version control. `tips` is designed to bring github even closer to shell users. You can think of `tips` as `man + github`, that means providing a `man` like shell command interface to your knowledge repository on github. 
 
 Usage
 -----
