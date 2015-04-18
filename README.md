@@ -1,7 +1,7 @@
 tips = man + github
 ===================
 
-`tips` is a `man` like command line help tool powered by github. It shares the similar interface with `man` but the contents are hosted on github, meaning its online and version-controlled.
+`tips` is a `man` like command line help tool powered by github. It shares the similar interface with `man` but the contents are hosted on github, meaning it is online and version-controlled.
 
 Usage
 -----
